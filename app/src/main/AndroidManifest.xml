@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="math.runner.edu.funmathstory" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/images"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="재미있는 수학"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sub1Activity"
+            android:label="인수분해의 뜻"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sub2Activity"
+            android:label="인수분해 공식"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sub3Activity"
+            android:label="복잡한 식의 인수분해와 활용"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="함께하는 다항식"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sub4Activity"
+            android:label="다항식의 계산"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sub5Activity"
+            android:label="곱셈공식"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Sub6Activity"
+            android:label="곱셈공식의 활용"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name=".Content2Activity"
+            android:label="인수분해 공식"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Content2Detail1Activity"
+            android:label="인수분해 공식"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>
