@@ -13,7 +13,7 @@ public class Sub4Activity extends Activity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_1);
+        setContentView(R.layout.activity_sub_4);
 
         Button btn = (Button) findViewById(R.id.button);
         ImageButton ib2 = (ImageButton) findViewById(R.id.imageButton2);

@@ -38,6 +38,12 @@ public class Content2Activity extends Activity implements View.OnClickListener {
             case R.id.button2:
                 startActivity(new Intent(this, Content2Detail1Activity.class));
                 break;
+            case R.id.button3:
+                startActivity(new Intent(this, Content2Detail2Activity.class));
+                break;
+            case R.id.button4:
+                startActivity(new Intent(this, Content2Detail3Activity.class));
+                break;
         }
     }
 }

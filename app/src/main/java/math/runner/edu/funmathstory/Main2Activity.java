@@ -35,13 +35,13 @@ public class Main2Activity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.imageButton:
-                startActivity(new Intent(this, Sub1Activity.class));
+                startActivity(new Intent(this, Sub4Activity.class));
                 break;
             case R.id.imageButton2:
-                startActivity(new Intent(this, Sub2Activity.class));
+                startActivity(new Intent(this, Sub5Activity.class));
                 break;
             case R.id.imageButton3:
-                startActivity(new Intent(this, Sub3Activity.class));
+                startActivity(new Intent(this, Sub6Activity.class));
                 break;
         }
     }

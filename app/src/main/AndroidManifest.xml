@@ -60,6 +60,14 @@
             android:label="인수분해 공식"
             android:screenOrientation="landscape">
         </activity>
+        <activity android:name=".Content2Detail2Activity"
+            android:label="인수분해 공식"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Content2Detail3Activity"
+            android:label="인수분해 공식"
+            android:screenOrientation="landscape">
+        </activity>
     </application>
 
 </manifest>

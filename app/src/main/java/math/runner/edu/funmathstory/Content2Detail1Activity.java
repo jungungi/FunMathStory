@@ -62,11 +62,17 @@ public class Content2Detail1Activity extends Activity implements View.OnClickLis
             case R.id.button1:
                 startActivity(new Intent(this, Content2Activity.class));
                 break;
+            case R.id.button3:
+                startActivity(new Intent(this, Content2Detail2Activity.class));
+                break;
             case R.id.button2:
                 content1.setVisibility(View.VISIBLE);
                 content2.setVisibility(View.GONE);
                 content3.setVisibility(View.GONE);
                 content4.setVisibility(View.GONE);
+                break;
+            case R.id.button4:
+                startActivity(new Intent(this, Content2Detail3Activity.class));
                 break;
             case R.id.imageButton1:
                 content1.setVisibility(View.GONE);
